@@ -1,0 +1,548 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.hal-1{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+}
+
+.title1{
+    font-family: "Charmonman", cursive;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+    margin-top: -10%;
+}
+
+.title2{
+    font-family: "Charmonman", cursive;
+    font-weight: 700;
+    font-size: 46px;
+    font-style: normal;
+    text-align: center;
+}
+
+.tamu1 {
+    margin-bottom: 10%;
+    margin-top: -10%;
+    font-size: medium;
+    font-family: serif;
+    font-size: 20px ;
+}
+
+.tamu2 {
+    margin-bottom: 10%;
+    font-size: medium;
+    font-family: serif;
+    font-size: 20px ;
+    margin-top: -10%;
+}
+
+.container{
+    position: relative;
+    padding: 20%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.atasan-kanan{
+    position: absolute;
+    margin: 0;
+    bottom: 30%;
+    left: 40%;
+}
+
+.atasan-kiri{
+    position: absolute;
+    bottom: 30%;
+    right: 35%;
+}
+
+.bawahan{
+    margin-left: 20px;
+    margin-top: -5%;
+}
+
+.cover{
+    width: 70%;
+    height: auto;
+}
+
+/* Style the button */
+#btn-scroll {
+    display: inline-flex;
+    padding: 5px; /* Optional padding for button */
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 5%;
+}
+
+/* Style the image within the button */
+#btn-scroll img {
+    width: 200px; /* Adjust width as necessary */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure image does not exceed button size */
+    display: block;
+    border-radius: 30px;
+}
+
+#hal-2{
+    background-color: #d9d9d9;
+    height: 100vh;
+    z-index: 0;
+}
+
+.bunga-atas{
+    margin-left: 20%;
+    z-index: 0;
+    margin-bottom: -50%;
+    margin-top: -35%;
+    position: relative;
+}
+
+.wadah{
+    background-color: rgba(251, 251, 252, 0.5);
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -10%;
+    height: 90%;
+    position: relative;
+    border-radius: 20px;
+}
+
+.wadah img{
+    z-index: 10;
+    margin-top: -10%;
+}
+
+.wadah h3{
+    z-index: 10;
+    font-family: "Charmonman", cursive;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.wadah p{
+    z-index: 10;
+    font-size: medium;
+    font-family: serif;
+    font-size: 40px;
+    margin-bottom: -2%;
+}
+
+.garis{
+    margin-left: -30%;
+    margin-bottom: -25%;
+    width: 150%;
+    padding: 0;
+}
+
+.wadah h2{
+    font-size: medium;
+    font-family: serif;
+    font-size: 45px;
+    z-index: 10; 
+}
+
+.bunga-bawah{
+    margin-left: -70%;
+    z-index: 0;
+    margin-bottom: -45%;
+    margin-top: -30%;
+    position: relative;
+}
+
+.hal-3{
+    position: relative;
+    z-index: 1;
+}
+
+.bg{
+    background-color: #bb7741;
+    font-size: medium;
+    font-family: serif;
+    padding: 5%;
+    font-weight: bold;
+}
+
+.hal-4{
+    position: relative;
+    background-color: #d9d9d9;
+    height: 110vh;
+}
+
+.tempat{
+    background-color: rgba(251, 251, 252, 0.5);
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -10%;
+    height: 90%;
+    position: relative;
+    border-radius: 20px;
+    padding-top:5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.tempat h3{
+    z-index: 10;
+    font-family: "Charmonman", cursive;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.cowo{
+    width: 70%;
+    height: auto;
+    margin-top: -30%;
+}
+
+.nama1{
+    z-index: 10;
+    font-family: "Charmonman", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: -10%;
+}
+
+.nama2{
+    z-index: 10;
+    font-family: "Charmonman", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: -15%;
+}
+
+.dan{
+    color: #ffbd59;
+    font-size: 60px;
+    font-family: serif;
+    margin-top: -20%;
+}
+
+.bates{
+    display: inline-flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ffbd59;
+}
+
+.cewe{
+    width: 70%;
+    height: auto;
+    margin-top: -35%;
+}
+
+.child{
+    margin-bottom: -1%;
+    margin-top: -5%;
+    font-family: serif;
+}
+
+.child2{
+    font-family: serif;
+}
+
+.hal-5{
+    background-color: #a6a6a6;
+    position: relative;
+    z-index: 1;
+}
+
+.title-jam{
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.cover-jam{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    font-family: serif;
+}
+
+#hari{
+    background-color: white;
+    width: 20%;
+    height: 80px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#jam{
+    background-color: white;
+    width: 20%;
+    height: 80px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#menit{
+    background-color: white;
+    width: 20%;
+    height: 80px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#detik{
+    background-color: white;
+    width: 20%;
+    height: 80px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.tanggal{
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.btn-tgl{
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.hal-6{
+    background-color: #d9d9d9;
+    position: relative;
+    z-index: 0;
+    height: 100vh; 
+}
+
+.wadah2{
+    background-color: rgba(251, 251, 252, 0.5);
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -10%;
+    height: 90%;
+    position: relative;
+    border-radius: 20px;
+    padding-top:5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: serif;
+}
+
+.p1{
+    margin-top: 5%;
+}
+
+.wadah2 h2{
+    font-size: 35px;
+}
+
+.resepsi{
+    margin-top: 5%;
+}
+
+.tgl{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.tgl2{
+    font-size: 30px;
+    margin-top: -2%;
+    margin-left: -5%;
+}
+
+.jam{
+    font-weight: bolder;
+    margin-top: -5%;
+    font-size: larger;
+}
+
+.lokasi{
+    width: 45%;
+    height: auto;
+    margin-top: -50%;
+}
+
+.bates2{
+    display: inline-flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 10%;
+}
+
+.lok{
+    margin-top: -10%;
+}
+
+.lok2{
+    margin-top: -5%;
+}
+
+#btn-lok{
+    width: 40%;
+    background-color: white;
+}
+
+.antar-hal{
+    background-color: #d9d9d9;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -1%;
+}
+
+.antara{
+    color: #d9d9d9;
+}
+
+.hal-7{
+    background-color: #d9d9d9;
+    position: relative;
+    z-index: 0;
+    height: 90vh; 
+}
+
+.wadah3{
+    background-color: rgba(251, 251, 252, 0.5);
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -10%;
+    height: 90%;
+    position: relative;
+    border-radius: 20px;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: serif;
+}
+
+.wadah3 h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.wadah3 p{
+    margin-top: 28%;
+    font-size: 25px;
+}
+
+.hal-8{
+    background-color: #d9d9d9;
+    position: relative;
+    z-index: 0;
+    height: 90vh; 
+}
+
+.wadah4{
+    background-color: rgba(251, 251, 252, 0.5);
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -10%;
+    height: 90%;
+    position: relative;
+    border-radius: 20px;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: serif;
+}
+
+.wadah4 h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.doa{
+    margin-top: 80%;
+}
+
+.hal-9{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    height: 70vh; 
+    padding-top: 5%;
+}
+
+.ucapan{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.pasangan{
+    width: 70%;
+    height: auto;
+}
+
+.nama3{
+    font-family: "Charmonman", cursive;
+    font-weight: bold;
+    font-size: 32px;
+    font-style: normal; 
+}
+
+.juni{
+    margin-top: -7%;
+}
+
+.bates22{
+    display: inline-flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: -10%;
+}
+
+.p2{
+    font-family: serif;
+}
+
+.wasalam{
+    font-family: "Charmonman", cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bunga-bawah2{
+    display: flex;
+    width: 170%;
+    position: absolute;
+    transform: translateY(-20%);
+}
+
+.bwh1{
+    margin-left: -48%;
+    transform: translateX(3%);
+}
+
+.bwh2{
+    margin-left: -41%;
+}
+
+.footer{
+    background-color: darkgray;
+    z-index: 10;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    height: 10vh;
+}
