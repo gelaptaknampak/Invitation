@@ -9,7 +9,14 @@ document.getElementById('btn-scroll').addEventListener('click', function(){
     document.documentElement.style.overflowY = 'auto';
     document.body.style.overflowY = 'scroll';
     document.getElementById('hal-2').scrollIntoView({behavior: 'smooth'});
-})
+});
+
+document.getElementById('btn-scroll').addEventListener("click", function() {
+    var audio = document.getElementById("musik");
+    audio.loop = true; // Set looping
+    audio.play(); // Play the audio
+});
+
 
 // ini untuk hitung mundur hari ke d-day
 
