@@ -904,7 +904,7 @@ body, html {
         background-color: #d9d9d9;
         position: relative;
         z-index: 0;
-        height: 200vh;  
+        height: 130vh;  
     }
     
     .wadah2{
@@ -913,7 +913,7 @@ body, html {
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: -10%;
-        height: 90%;
+        height: 100%;
         position: relative;
         border-radius: 20px;
         padding-top:5%;
