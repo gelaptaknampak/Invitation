@@ -747,7 +747,7 @@ body, html {
     .hal-4{
         position: relative;
         background-color: #d9d9d9;
-        height: 125vh;
+        height: 135vh;
     }
     
     .tempat{
@@ -895,7 +895,7 @@ body, html {
     .btn-tgl{
         background-color: white;
         margin-bottom: 5%;
-        width: 35%;
+        width: 55%;
     }
     
     /* halaman 6 */
@@ -1124,5 +1124,109 @@ body, html {
         font-family:Arial, Helvetica, sans-serif;
         padding-top: 5%;
         height: 20vh;
+    }
+}
+
+@media (min-height: 844px) and (max-height: 844px) and (min-width: 390px) and (max-width: 390px) {
+    /* halaman 4 */
+    .hal-4{
+        position: relative;
+        background-color: #d9d9d9;
+        height: 100vh;
+    }
+
+        /* halaman 6 */
+    .hal-6{
+        background-color: #d9d9d9;
+        position: relative;
+        z-index: 0;
+        height: 110vh; 
+    }
+
+    /* halaman 7 */
+    .hal-7{
+        background-color: #d9d9d9;
+        position: relative;
+        z-index: 0;
+        height: 100vh; 
+    }
+
+    .wadah3 p{
+        margin-top: 35%;
+        font-size: 20px;
+    }
+
+    /* halaman 9 */
+    .hal-9{
+        background-color: white;
+        position: relative;
+        z-index: 1;
+        height: 82vh; 
+        padding-top: 5%;
+    }
+    
+    .ucapan{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-weight: bold;
+        font-family: serif;
+    }
+    
+    .pasangan{
+        width: 60%;
+        height: auto;
+    }
+    
+    .nama3{
+        font-family: "Charmonman", cursive;
+        font-weight: bold;
+        font-size: 22px;
+        font-style: normal; 
+    }
+    
+    .juni{
+        margin-top: -9%;
+    }
+    
+    .bates22{
+        display: inline-flex;
+        margin-left: 14.5%;
+        margin-right: 14.5%;
+        margin-top: -10%;
+    }
+    
+    .p2{
+        font-family: serif;
+    }
+    
+    .wasalam{
+        font-family: "Charmonman", cursive;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .bunga-bawah2{
+        display: flex;
+        width: 170%;
+        position: absolute;
+        transform: translateY(25%);
+    }
+    
+    .bwh1{
+        margin-left: -48%;
+        transform: translateX(3%);
+    }
+    
+    .bwh2{
+        margin-left: -41%;
+    }
+    
+    .footer{
+        background-color: darkgray;
+        z-index: 10;
+        position: relative;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-top: 5%;
+        height: 25vh;
     }
 }
