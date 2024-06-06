@@ -1,3 +1,10 @@
+window.addEventListener("load", function() {
+    var hal1 = document.querySelector(".hal-1");
+    if (hal1) {
+        hal1.scrollIntoView();
+    }
+});
+
 document.getElementById('btn-scroll').addEventListener('click', function(){
     document.documentElement.style.overflowY = 'auto';
     document.body.style.overflowY = 'scroll';
