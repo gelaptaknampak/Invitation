@@ -462,7 +462,7 @@ body, html {
     background-color: #d9d9d9;
     position: relative;
     z-index: 0;
-    min-height: 90vh; 
+    min-height: 115vh; 
 }
 
 .wadah4{
@@ -495,6 +495,11 @@ body, html {
     background-color: darkgray;
     border: none;
     width: 90%;
+}
+
+.isi-ucapan{
+    max-height: 30vh;
+    height: 30vh;
 }
 
 /* halaman 9 */
@@ -571,7 +576,7 @@ body, html {
     min-height: 15vh;
 }
 
-@media (max-height: 850px){
+@media (max-height: 850px) and (max-width: 400px){
     body, html {
         margin: 0;
         padding: 0;
@@ -1072,7 +1077,7 @@ body, html {
         background-color: white;
         position: relative;
         z-index: 1;
-        min-height: 85vh; 
+        min-height: 90vh; 
         padding-top: 5%;
     }
     
@@ -1120,7 +1125,7 @@ body, html {
         display: flex;
         width: 130%;
         position: absolute;
-        transform: translateY(-17%);
+        transform: translateY(5%);
     }
     
     .bwh1{
@@ -1291,7 +1296,7 @@ body, html {
     }
 }
 
-@media (max-height: 790px){
+@media (max-height: 740px) and (max-width: 360px){
     /* halaman 1 */
     .hal-1{
         background-color: white;
@@ -1835,7 +1840,7 @@ body, html {
         display: flex;
         width: 130%;
         position: absolute;
-        transform: translateY(-17%);
+        transform: translateY(-15%);
     }
     
     .bwh1{
