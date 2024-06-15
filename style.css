@@ -430,6 +430,7 @@ body, html {
     position: relative;
     z-index: 0;
     min-height: 107vh; 
+    overflow: hidden;
 }
 
 .wadah3{
@@ -463,6 +464,7 @@ body, html {
     position: relative;
     z-index: 0;
     min-height: 115vh; 
+    overflow: hidden;
 }
 
 .wadah4{
